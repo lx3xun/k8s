@@ -22,9 +22,9 @@ spec:
 
     # A simple map between string and string.
     # Such as:
-    mysqlConf:
-      expire_logs_days: "30"
-    # mysqlConf: {}
+    # mysqlConf:
+    #   expire_logs_days: "30"
+    mysqlConf: {}
 
     resources:
       requests:
